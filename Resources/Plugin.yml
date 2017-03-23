@@ -1,0 +1,10 @@
+name: ChatInjector
+main: com.extendedclip.chatinjector.ChatInjector
+version: 1.0.0
+author: extended_clip
+description: allow PlaceholderAPI bracket placeholders be used in all chat messages
+softdepend: [PlaceholderAPI, ProtocolLib]
+permissions:
+    chatinjector.parse:
+        description: Gives ability to use placeholders in chat messages
+        default: op
